@@ -1,0 +1,103 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
+}
+
+/* Background */
+
+body {
+  background-image: url("https://www.freepik.com/free-vector/digital-money-online-saving-deposit-concept-blank-space-phone_12157197.htm#fromView=search&page=1&position=4&uuid=de87b946-adeb-4703-bce7-d271b039ade9&query=money+transfer");
+  background-size: cover;  /* makes it fit the screen */
+  background-repeat: no-repeat; /* prevents repeating */
+  background-position: center; /* centers the image */
+}
+
+
+/*body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url("https://www.freepik.com/free-vector/digital-money-online-saving-deposit-concept-blank-space-phone_12157197.htm#fromView=search&page=1&position=4&uuid=de87b946-adeb-4703-bce7-d271b039ade9&query=money+transfer"); 
+    no-repeat center center/cover;
+  color: #fff;
+}*/
+
+/* Navbar */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+header nav h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Login Section */
+.login {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_box {
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 320px;
+}
+
+.login_box h1 {
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login_form input[type="text"],
+.login_form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #218838;
+}
+
+.btn-signup {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-signup:hover {
+  background: #0056b3;
+}
